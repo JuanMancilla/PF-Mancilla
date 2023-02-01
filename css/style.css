@@ -52,6 +52,23 @@ li a:hover {
     justify-content: flex-end;
 }
 
+/* MEDIA QUERY | HEADER | MOVIL */
+@media (max-width: 425px) {
+    header {
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-header{
+        height: 0;
+    }
+
+    header nav ul li {
+        margin: 0 4px;
+        padding: 0 4px;
+    }
+}
 
 /* CONTENIDO INICIO */
 
@@ -304,4 +321,18 @@ footer nav ul li {
 
 footer li a {
     font-size: 14px;
+}
+
+/* MEDIA QUERY | FOOTER | MOVIL */
+
+@media (max-width: 425px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    footer nav ul {
+        text-align: center;
+}
 }
