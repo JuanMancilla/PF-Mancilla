@@ -173,6 +173,13 @@ li a:hover {
     text-align: center;
 }
 
+.body-servicios-2 div:hover{
+    transform: scale(1.08);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: white;
+    transition: .3s;
+}
+
 /* CONTENIDO PORTAFOLIO */
 
 .portafolio h1 {
