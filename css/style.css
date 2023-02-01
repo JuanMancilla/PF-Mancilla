@@ -53,6 +53,7 @@ li a:hover {
 }
 
 /* MEDIA QUERY | HEADER | MOVIL */
+
 @media (max-width: 425px) {
     header {
         height: 120px;
@@ -60,7 +61,7 @@ li a:hover {
         flex-direction: column;
     }
 
-    .menu-header{
+    .menu-header {
         height: 0;
     }
 
@@ -139,6 +140,7 @@ li a:hover {
 }
 
 /* MEDIA QUERY | INICIO | TABLET */
+
 @media (max-width: 768px) {
     .banner-inicio h2 {
         margin: 10px 3rem;
@@ -148,15 +150,15 @@ li a:hover {
         margin: 10px 3rem;
     }
 
-    .body-inicio-1{
+    .body-inicio-1 {
         grid-template-columns: 2fr 1fr;
     }
 
-    .contenido-inicio-2 img{
+    .contenido-inicio-2 img {
         height: 200px;
     }
 
-    .cta-contacto h2{
+    .cta-contacto h2 {
         margin: 0 3rem;
     }
 }
@@ -173,16 +175,16 @@ li a:hover {
         margin: 10px 1rem;
     }
 
-    .body-inicio-1{
+    .body-inicio-1 {
         display: flex;
         flex-direction: column;
     }
 
-    .contenido-inicio-2 img{
+    .contenido-inicio-2 img {
         height: 300px;
     }
 
-    .cta-contacto h2{
+    .cta-contacto h2 {
         font-size: 25px;
         margin: 0 3rem;
     }
@@ -241,6 +243,64 @@ li a:hover {
     background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     color: white;
     transition: .3s;
+}
+
+/* MEDIA QUERY | SERVICIOS | TABLET */
+
+@media (max-width: 768px) {
+    .banner-servicios h2 {
+        margin: 10px 3rem;
+    }
+
+    .banner-servicios h3 {
+        margin: 10px 3rem;
+    }
+
+    .body-servicios-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .contenido-servicios-1 {
+        margin-bottom: 30px;
+    }
+
+    .body-servicios-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5rem 2rem;
+    }
+}
+
+/* MEDIA QUERY | SERVICIOS | MOVIL */
+@media (max-width: 452px) {
+    .banner-servicios h2 {
+        font-size: 25px;
+        margin: 10px 1rem;
+    }
+
+    .banner-servicios h3 {
+        font-size: 20px;
+        margin: 10px 1rem;
+    }
+
+    .body-servicios-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-servicios-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 5rem 2rem;
+    }
+
+    .contenido-servicios-2 iframe{
+        width: 343px;
+        height: 193px;
+    }
 }
 
 /* CONTENIDO PORTAFOLIO */
@@ -334,5 +394,5 @@ footer li a {
 
     footer nav ul {
         text-align: center;
-}
+    }
 }
