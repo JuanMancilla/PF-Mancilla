@@ -86,7 +86,6 @@ li a:hover {
 }
 
 .contenido-inicio-1 {
-    width: 60vw;
     padding: 2rem;
     display: grid;
     align-items: center;
@@ -95,7 +94,6 @@ li a:hover {
 }
 
 .contenido-inicio-2 {
-    width: 40vw;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -107,7 +105,7 @@ li a:hover {
 
 .cta-contacto {
     height: 200px;
-    background: linear-gradient(-90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(-90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     background-position: center;
     background-size: cover;
     display: grid;
@@ -116,14 +114,62 @@ li a:hover {
     align-content: center;
 }
 
-.cta-contacto h2{
+.cta-contacto h2 {
     color: white;
     font-size: 35px;
     text-align: center;
     margin: 0 20rem;
 }
 
+/* MEDIA QUERY | INICIO | TABLET */
+@media (max-width: 768px) {
+    .banner-inicio h2 {
+        margin: 10px 3rem;
+    }
 
+    .banner-inicio h3 {
+        margin: 10px 3rem;
+    }
+
+    .body-inicio-1{
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contenido-inicio-2 img{
+        height: 200px;
+    }
+
+    .cta-contacto h2{
+        margin: 0 3rem;
+    }
+}
+
+/* MEDIA QUERY | INICIO | MOVIL */
+@media (max-width: 452px) {
+    .banner-inicio h2 {
+        font-size: 25px;
+        margin: 10px 1rem;
+    }
+
+    .banner-inicio h3 {
+        font-size: 20px;
+        margin: 10px 1rem;
+    }
+
+    .body-inicio-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenido-inicio-2 img{
+        height: 300px;
+    }
+
+    .cta-contacto h2{
+        font-size: 25px;
+        margin: 0 3rem;
+    }
+}
 
 /* CONTENIDO SERVICIOS */
 
@@ -151,7 +197,7 @@ li a:hover {
     margin: 1rem 10rem;
 }
 
-.body-servicios-1{
+.body-servicios-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: end;
@@ -159,13 +205,13 @@ li a:hover {
     margin: 5rem 2rem;
 }
 
-.body-servicios-2{
+.body-servicios-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 5rem 2rem;
 }
 
-.body-servicios-2 div{
+.body-servicios-2 div {
     border: 1px solid rgb(203, 203, 203);
     border-radius: 20px;
     margin: 10px;
@@ -173,9 +219,9 @@ li a:hover {
     text-align: center;
 }
 
-.body-servicios-2 div:hover{
+.body-servicios-2 div:hover {
     transform: scale(1.08);
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     color: white;
     transition: .3s;
 }
