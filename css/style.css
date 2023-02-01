@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* HEADER */
+
+header {
+    height: 80px;
+    display: grid;
+    grid-template-columns: 5fr 8fr;
+    align-items: center;
+    align-content: center;
+    border-bottom: solid 1px rgb(203, 203, 203);
+}
+
+a .img-logo {
+    height: 80px;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 14px;
+    color: black;
+}
+
+header nav ul li {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+li a {
+    color: rgb(148, 148, 148);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.menu-activo {
+    color: #833ab4;
+    font-weight: 800;
+}
+
+.menu-header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/* CONTENIDO INICIO */
+
+.banner-inicio {
+    height: 400px;
+    background-image: url(../recursos/banner-inicio.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner-inicio h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin: 1rem 10rem;
+}
+
+.banner-inicio h3 {
+    color: white;
+    text-align: center;
+    margin: 1rem 10rem;
+}
+
+.body-inicio-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem 0;
+}
+
+.contenido-inicio-1 {
+    width: 60vw;
+    padding: 2rem;
+    display: grid;
+    align-items: center;
+    align-content: center;
+
+}
+
+.contenido-inicio-2 {
+    width: 40vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.contenido-inicio-2 img {
+    height: 500px;
+}
+
+.cta-contacto {
+    height: 200px;
+    background: linear-gradient(-90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.cta-contacto h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 20rem;
+}
+
+
+
+/* CONTENIDO SERVICIOS */
+
+.banner-servicios {
+    height: 400px;
+    background-image: url(../recursos/banner-servicios.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner-servicios h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin: 1rem 10rem;
+}
+
+.banner-servicios h3 {
+    color: white;
+    text-align: center;
+    margin: 1rem 10rem;
+}
+
+.body-servicios-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    align-items: center;
+    margin: 5rem 2rem;
+}
+
+.body-servicios-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5rem 2rem;
+}
+
+.body-servicios-2 div{
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+/* CONTENIDO PORTAFOLIO */
+
+.portafolio h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.fotos-portafolio {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.fotos-portafolio-2 {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.fotos-portafolio img,
+.fotos-portafolio-2 img {
+    height: 200px;
+}
+
+
+/* FAQs */
+
+.faqs {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.faqs h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.faqs div {
+    margin-bottom: 2rem;
+}
+
+
+/* CONTACTO */
+
+.contacto {
+    height: 60vh;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto h1 {
+    margin: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: solid 1px rgb(203, 203, 203);
+}
+
+footer nav ul {
+    list-style: none;
+    text-align: right;
+    margin: 0 2rem;
+}
+
+footer nav ul li {
+    margin: 10px 0;
+}
+
+footer li a {
+    font-size: 14px;
+}
