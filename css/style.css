@@ -139,6 +139,10 @@ li a:hover {
     margin: 0 20rem;
 }
 
+.cta-contacto a {
+    text-decoration: none;
+}
+
 /* MEDIA QUERY | INICIO | TABLET */
 
 @media (max-width: 768px) {
