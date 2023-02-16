@@ -9,32 +9,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../css/style.css">
     <title>FAQs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 
 <body>
 
     <!-- HEADER -->
+
     <header>
-        <a href="../index.html" class="img-logo"><img src="../recursos/Logo-DF.png" alt="Logo Dark Focus"
-                class="img-logo"></a>
-        <nav>
-            <ul class="menu-header">
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="../secciones/servicios.html">SERVICIOS</a>
-                </li>
-                <li>
-                    <a href="../secciones/portafolio.html">PORTAFILIO</a>
-                </li>
-                <li>
-                    <a href="../secciones/faq.html" class="menu-activo">FAQs</a>
-                </li>
-                <li>
-                    <a href="../secciones/contacto.html">CONTACTO</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./recursos/Logo-DF.png" alt="Logo" height="80" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portafolio.html">PORTAFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./faq.html">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -47,32 +60,87 @@
                 servicios que tenemos para ofrecerte.</h3>
         </div>
         <div class="body-faqs">
-            <div>
-                <h2>¿Por qué invertir en diseño gráfico?</h2>
-                <p>Un buen diseño gráfico es importante para la empresa, no sólo por su aspecto, sino por el impacto que
-                    tiene a la hora de dar a conocer nuestros productos y servicios.</p>
+            <!-- ACORDEON BS -->
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            ¿Por qué invertir en diseño gráfico?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            Un buen diseño gráfico es importante para la empresa, no sólo por su aspecto, sino por el
+                            impacto que
+                            tiene a la hora de dar a conocer nuestros productos y servicios.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            ¿Qué es la identidad de marca?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            Tu identidad de marca es la suma total de quién es tu empresa, qué valores defiende, en qué
+                            cree y cómo se presenta. Es su sello personal en todo lo que haces, desde su forma de hablar
+                            y
+                            actuar hasta los productos y servicios que ofrece. Un consejo: ¡sé auténtico! Tu marca tiene
+                            que reflejar
+                            tus valores fundamentales, tu misión y tener sentido para tu público objetivo. Si no, la
+                            gente
+                            no se sentirá vinculada a ella ni creerá que es lo bastante auténtica.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            ¿Cuál es la importancia del manual de marca?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            La importancia de un manual de marca es crucial para cualquier empresa. Es una forma de
+                            crear
+                            coherencia y definir su marca. Un manual de marca es como una biblia con la que puedes
+                            educar a los
+                            futuros encargados de marketing, diseñadores gráficos o programadores web sobre lo que deben
+                            de
+                            regirse al momento de manipular la personalidad de tu marca.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            ¿Por qué elegir una paleta de colores para mi marca?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            Uno de los elementos más importantes del diseño de una marca es elegir los colores
+                            adecuados. Elegir una paleta es uno de los primeros pasos para crear una identidad única y
+                            memorable que te ayude a diferenciarte de los demas.
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h2>¿Qué es la identidad de marca?</h2>
-                <p>Tu identidad de marca es la suma total de quién es tu empresa, qué valores defiende, en qué cree y
-                    cómo se presenta. Es su sello personal en todo lo que haces, desde su forma de hablar y actuar hasta
-                    los productos y servicios que ofrece. Un consejo: ¡sé auténtico! Tu marca tiene que reflejar tus
-                    valores fundamentales, tu misión y tener sentido para tu público objetivo. Si no, la gente no se
-                    sentirá vinculada a ella ni creerá que es lo bastante auténtica.</p>
-            </div>
-            <div>
-                <h2>¿Cuál es la importancia del manual de marca?</h2>
-                <p>La importancia de un manual de marca es crucial para cualquier empresa. Es una forma de crear
-                    coherencia y definir su marca. Un manual de marca es como una biblia con la que puedes educar a los
-                    futuros encargados de marketing, diseñadores gráficos o programadores web sobre lo que deben de
-                    regirse al momento de manipular la personalidad de tu marca.</p>
-            </div>
-            <div>
-                <h2>¿Por qué elegir una paleta de colores para mi marca?</h2>
-                <p>Uno de los elementos más importantes del diseño de una marca es elegir los colores adecuados.
-                    Elegir una paleta es uno de los primeros pasos para crear una identidad única y memorable que te
-                    ayude a diferenciarte de los demas.</p>
-            </div>
+            <!-- FIN ACORDEON -->
         </div>
     </main>
 
@@ -95,6 +163,9 @@
             </ul>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
 </body>
 

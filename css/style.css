@@ -7,69 +7,14 @@
 
 /* HEADER */
 
-header {
-    height: 80px;
-    display: grid;
-    grid-template-columns: 5fr 8fr;
-    align-items: center;
-    align-content: center;
-    border-bottom: solid 1px rgb(203, 203, 203);
-}
-
-a .img-logo {
-    height: 80px;
-}
-
-header nav ul {
-    list-style: none;
-    font-size: 14px;
-    color: black;
-}
-
-header nav ul li {
-    margin: 1rem;
-    padding: 1rem;
-}
-
-li a {
-    color: rgb(148, 148, 148);
-    text-decoration: none;
-}
-
-li a:hover {
-    color: rgb(0, 0, 0);
-}
-
-.menu-activo {
-    color: #833ab4;
-    font-weight: 800;
-}
-
-.menu-header {
-    height: 150px;
-    display: flex;
-    align-items: center;
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
     justify-content: flex-end;
 }
+} 
 
-/* MEDIA QUERY | HEADER | MOVIL */
-
-@media (max-width: 425px) {
-    header {
-        height: 120px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu-header {
-        height: 0;
-    }
-
-    header nav ul li {
-        margin: 0 4px;
-        padding: 0 4px;
-    }
-}
 
 /* CONTENIDO INICIO */
 
@@ -441,17 +386,13 @@ li a:hover {
     margin: 5rem auto;
 }
 
-.body-faqs h1 {
-    text-align: center;
-    margin-bottom: 3rem;
+.accordion-button:not(.collapsed) {
+    background-color: #833ab4 !important;
+    color: white !important;
 }
 
-.body-faqs div {
-    margin-bottom: 2rem;
-}
-
-.body-faqs h2 {
-    margin-bottom: 1rem;
+.accordion-button:not(.collapsed)::after {
+    display: none;
 }
 
 /* MEDIA QUERY | FAQs | TABLET */
