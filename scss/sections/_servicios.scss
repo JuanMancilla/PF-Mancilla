@@ -1,0 +1,112 @@
+/* CONTENIDO SERVICIOS */
+
+.banner-servicios {
+    height: 400px;
+    background-image: url(../recursos/banner-servicios.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    h2 {
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        margin: 1rem 10rem;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        margin: 1rem 10rem;
+    }
+}
+
+.body-servicios-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    align-items: center;
+    margin: 5rem 2rem;
+}
+
+.body-servicios-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5rem 2rem;
+
+    div {
+        border: 1px solid rgb(203, 203, 203);
+        border-radius: 20px;
+        margin: 10px;
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    div:hover {
+        transform: scale(1.08);
+        background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        color: white;
+        transition: .3s;
+    }
+}
+
+/* MEDIA QUERY | SERVICIOS | TABLET */
+
+@media (max-width: 768px) {
+    .banner-servicios h2 {
+        margin: 10px 3rem;
+
+        h3 {
+            margin: 10px 3rem;
+        }
+    }
+
+    .body-servicios-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .contenido-servicios-1 {
+        margin-bottom: 30px;
+    }
+
+    .body-servicios-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 5rem 2rem;
+    }
+}
+
+/* MEDIA QUERY | SERVICIOS | MOVIL */
+@media (max-width: 452px) {
+    .banner-servicios h2 {
+        font-size: 25px;
+        margin: 10px 1rem;
+
+        h3 {
+            font-size: 20px;
+            margin: 10px 1rem;
+        }
+    }
+
+    .body-servicios-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-servicios-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 5rem 2rem;
+
+        iframe {
+            width: 343px;
+            height: 193px;
+        }
+    }
+}

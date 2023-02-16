@@ -1,0 +1,35 @@
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: solid 1px rgb(203, 203, 203);
+
+    nav ul {
+        list-style: none;
+        text-align: right;
+        margin: 0 2rem;
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            font-size: 14px;
+        }
+    }
+}
+
+/* MEDIA QUERY | FOOTER | MOVIL */
+
+@media (max-width: 425px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    footer nav ul {
+        text-align: center;
+    }
+}

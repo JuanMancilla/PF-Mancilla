@@ -1,0 +1,103 @@
+/* CONTENIDO PORTAFOLIO */
+
+.banner-portafolio {
+    height: 400px;
+    background-image: url(../recursos/banner-portafolio.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    h2 {
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        margin: 1rem 10rem;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        margin: 1rem 10rem;
+    }
+}
+
+.body-portafolio {
+    padding: 5rem 0;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}
+
+.fotos-portafolio {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+
+    img {
+        height: 400px;
+        margin: 1rem;
+        filter: grayscale(100%);
+
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        filter: grayscale(0);
+        box-shadow: 0px 0px 32px -10px rgba(0, 0, 0, 1);
+        transition: .3s;
+    }
+}
+
+/* MEDIA QUERY | PORTAFOLIO | TABLET */
+
+@media (max-width: 768px) {
+    .banner-portafolio {
+        h2 {
+            margin: 10px 3rem;
+        }
+
+        h3 {
+            margin: 10px 3rem;
+        }
+    }
+
+    .fotos-portafolio {
+        width: 700px;
+
+        img {
+            height: 300px;
+        }
+    }
+}
+
+/* MEDIA QUERY | PORTAFOLIO | MOVIL */
+@media (max-width: 452px) {
+    .banner-portafolio {
+        h2 {
+            font-size: 25px;
+            margin: 10px 1rem;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 10px 1rem;
+        }
+    }
+
+    .fotos-portafolio {
+        grid-template-columns: 1fr;
+        width: 400px;
+
+        img {
+            height: 300px;
+        }
+    }
+}
