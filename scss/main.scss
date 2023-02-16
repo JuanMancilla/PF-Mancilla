@@ -1,13 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
+/* UTILIDADES */
 
-@import "./sections/header";
-@import "./sections/inicio";
-@import "./sections/servicios";
-@import "./sections/portafolio";
-@import "./sections/faqs";
-@import "./sections/contacto";
-@import "./sections/footer";
+@import "./utilidades/reset";
+@import "./utilidades/colors";
+
+
+/* SECCIONES */
+
+@import "./secciones/header";
+@import "./secciones/inicio";
+@import "./secciones/servicios";
+@import "./secciones/portafolio";
+@import "./secciones/faqs";
+@import "./secciones/contacto";
+@import "./secciones/footer";

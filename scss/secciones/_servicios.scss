@@ -38,17 +38,21 @@
     margin: 5rem 2rem;
 
     div {
-        border: 1px solid rgb(203, 203, 203);
+        border: 1px solid $color-borde;
         border-radius: 20px;
         margin: 10px;
         padding: 3rem 0;
         text-align: center;
+        
+        h2 {
+            font-size: 24px;
+        }
     }
 
     div:hover {
         transform: scale(1.08);
         background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
-        color: white;
+        color: rgb(255, 255, 255);
         transition: .3s;
     }
 }
@@ -84,15 +88,18 @@
 
 /* MEDIA QUERY | SERVICIOS | MOVIL */
 @media (max-width: 452px) {
-    .banner-servicios h2 {
+    .banner-servicios {
+        h2 {
         font-size: 25px;
         margin: 10px 1rem;
+        }
 
         h3 {
             font-size: 20px;
             margin: 10px 1rem;
         }
     }
+
 
     .body-servicios-1 {
         display: flex;
@@ -103,10 +110,9 @@
         display: grid;
         grid-template-columns: 1fr;
         margin: 5rem 2rem;
-
+    }
         iframe {
             width: 343px;
             height: 193px;
         }
     }
-}

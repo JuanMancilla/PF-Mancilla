@@ -1,14 +1,27 @@
+/* UTILIDADES */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: 'ubuntu', sans-serif; }
 
+/* SECCIONES */
 /* HEADER */
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
-    justify-content: flex-end; } }
+    justify-content: flex-end; }
+  .nav-link {
+    color: #7b7b7b !important;
+    text-align: right; }
+  .nav-link:hover {
+    color: black !important; }
+  .menu-activo {
+    color: #833ab4 !important;
+    font-weight: 700 !important; }
+  .menu-activo:hover {
+    color: #833ab4 !important; } }
 
 /* CONTENIDO INICIO */
 .banner-inicio {
@@ -83,9 +96,9 @@
   .banner-inicio h2 {
     font-size: 25px;
     margin: 10px 1rem; }
-    .banner-inicio h2 h3 {
-      font-size: 20px;
-      margin: 10px 1rem; }
+  .banner-inicio h3 {
+    font-size: 20px;
+    margin: 10px 1rem; }
   .body-inicio-1 {
     display: flex;
     flex-direction: column; }
@@ -132,6 +145,8 @@
     margin: 10px;
     padding: 3rem 0;
     text-align: center; }
+    .body-servicios-2 div h2 {
+      font-size: 24px; }
   .body-servicios-2 div:hover {
     transform: scale(1.08);
     background: linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
@@ -161,9 +176,9 @@
   .banner-servicios h2 {
     font-size: 25px;
     margin: 10px 1rem; }
-    .banner-servicios h2 h3 {
-      font-size: 20px;
-      margin: 10px 1rem; }
+  .banner-servicios h3 {
+    font-size: 20px;
+    margin: 10px 1rem; }
   .body-servicios-1 {
     display: flex;
     flex-direction: column; }
@@ -171,9 +186,9 @@
     display: grid;
     grid-template-columns: 1fr;
     margin: 5rem 2rem; }
-    .body-servicios-2 iframe {
-      width: 343px;
-      height: 193px; } }
+  iframe {
+    width: 343px;
+    height: 193px; } }
 
 /* CONTENIDO PORTAFOLIO */
 .banner-portafolio {
@@ -372,7 +387,11 @@ footer {
     footer nav ul li {
       margin: 10px 0; }
     footer nav ul a {
-      font-size: 14px; }
+      font-size: 14px;
+      color: #7b7b7b;
+      text-decoration: none; }
+    footer nav ul a:hover {
+      color: black; }
 
 /* MEDIA QUERY | FOOTER | MOVIL */
 @media (max-width: 425px) {

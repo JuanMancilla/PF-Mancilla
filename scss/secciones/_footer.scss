@@ -3,7 +3,7 @@
 footer {
     display: flex;
     justify-content: flex-end;
-    border-top: solid 1px rgb(203, 203, 203);
+    border-top: solid 1px $color-borde;
 
     nav ul {
         list-style: none;
@@ -16,6 +16,12 @@ footer {
 
         a {
             font-size: 14px;
+            color: $color-texto-secundario;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: black;
         }
     }
 }

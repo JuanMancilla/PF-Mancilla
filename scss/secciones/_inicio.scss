@@ -74,12 +74,14 @@
 /* MEDIA QUERY | INICIO | TABLET */
 
 @media (max-width: 768px) {
-    .banner-inicio h2 {
+    .banner-inicio {
+    h2 {
         margin: 10px 3rem;
 
         h3 {
             margin: 10px 3rem;
         }
+    }
     }
 
     .body-inicio-1 {
@@ -97,15 +99,17 @@
 
 /* MEDIA QUERY | INICIO | MOVIL */
 @media (max-width: 452px) {
-    .banner-inicio h2 {
+    .banner-inicio {
+        h2 {
         font-size: 25px;
         margin: 10px 1rem;
-
+        }
         h3 {
             font-size: 20px;
             margin: 10px 1rem;
         }
     }
+
 
     .body-inicio-1 {
         display: flex;

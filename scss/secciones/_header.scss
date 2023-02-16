@@ -1,0 +1,27 @@
+/* HEADER */
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+
+    .nav-link {
+        color: $color-texto-secundario !important;
+        text-align: right;
+    }
+
+    .nav-link:hover {
+        color: black !important;
+    }
+
+    .menu-activo {
+        color: $color-destacado !important;
+        font-weight: 700 !important;
+    }
+
+    .menu-activo:hover {
+        color: $color-destacado !important;
+    }
+}
