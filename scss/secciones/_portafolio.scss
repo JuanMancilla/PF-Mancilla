@@ -58,7 +58,7 @@
 
 /* MEDIA QUERY | PORTAFOLIO | TABLET */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .banner-portafolio {
         h2 {
             margin: 10px 3rem;
@@ -79,7 +79,7 @@
 }
 
 /* MEDIA QUERY | PORTAFOLIO | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
     .banner-portafolio {
         h2 {
             font-size: 25px;

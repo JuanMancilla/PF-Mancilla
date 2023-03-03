@@ -40,7 +40,7 @@
 
 /* MEDIA QUERY | FAQs | TABLET */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .banner-faqs {
         h2 {
             margin: 10px 3rem;
@@ -57,7 +57,7 @@
 }
 
 /* MEDIA QUERY | FAQs | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
     .banner-faqs {
         h2 {
             font-size: 25px;

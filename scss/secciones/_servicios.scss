@@ -59,7 +59,7 @@
 
 /* MEDIA QUERY | SERVICIOS | TABLET */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .banner-servicios h2 {
         margin: 10px 3rem;
 
@@ -87,7 +87,7 @@
 }
 
 /* MEDIA QUERY | SERVICIOS | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
     .banner-servicios {
         h2 {
         font-size: 25px;

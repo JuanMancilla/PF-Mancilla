@@ -73,7 +73,7 @@
 
 /* MEDIA QUERY | INICIO | TABLET */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .banner-inicio {
     h2 {
         margin: 10px 3rem;
@@ -98,7 +98,7 @@
 }
 
 /* MEDIA QUERY | INICIO | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
     .banner-inicio {
         h2 {
         font-size: 25px;

@@ -79,7 +79,7 @@
     text-decoration: none; }
 
 /* MEDIA QUERY | INICIO | TABLET */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .banner-inicio h2 {
     margin: 10px 3rem; }
     .banner-inicio h2 h3 {
@@ -92,7 +92,7 @@
     margin: 0 3rem; } }
 
 /* MEDIA QUERY | INICIO | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
   .banner-inicio h2 {
     font-size: 25px;
     margin: 10px 1rem; }
@@ -154,7 +154,7 @@
     transition: .3s; }
 
 /* MEDIA QUERY | SERVICIOS | TABLET */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .banner-servicios h2 {
     margin: 10px 3rem; }
     .banner-servicios h2 h3 {
@@ -172,7 +172,7 @@
     margin: 5rem 2rem; } }
 
 /* MEDIA QUERY | SERVICIOS | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
   .banner-servicios h2 {
     font-size: 25px;
     margin: 10px 1rem; }
@@ -234,7 +234,7 @@
     transition: .3s; }
 
 /* MEDIA QUERY | PORTAFOLIO | TABLET */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .banner-portafolio h2 {
     margin: 10px 3rem; }
   .banner-portafolio h3 {
@@ -245,7 +245,7 @@
       height: 300px; } }
 
 /* MEDIA QUERY | PORTAFOLIO | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
   .banner-portafolio h2 {
     font-size: 25px;
     margin: 10px 1rem; }
@@ -290,7 +290,7 @@
   display: none; }
 
 /* MEDIA QUERY | FAQs | TABLET */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .banner-faqs h2 {
     margin: 10px 3rem; }
   .banner-faqs h3 {
@@ -299,7 +299,7 @@
     width: 650px; } }
 
 /* MEDIA QUERY | FAQs | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
   .banner-faqs h2 {
     font-size: 25px;
     margin: 10px 1rem; }
@@ -357,14 +357,14 @@ h3 {
   font-weight: 700; }
 
 /* MEDIA QUERY | CONTACTO | TABLET */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .banner-contacto h2 {
     margin: 10px 3rem; }
   .banner-contacto h3 {
     margin: 10px 3rem; } }
 
 /* MEDIA QUERY | CONTACTO | MOVIL */
-@media (max-width: 452px) {
+@media (max-width: 700px) {
   .banner-contacto h2 {
     font-size: 25px;
     margin: 10px 1rem; }
@@ -398,7 +398,7 @@ footer {
     font-size: 13px; }
 
 /* MEDIA QUERY | FOOTER | MOVIL */
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   footer .contenido-footer {
     flex-direction: column;
     height: 150px; }
