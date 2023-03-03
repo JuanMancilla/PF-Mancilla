@@ -377,27 +377,30 @@ h3 {
 
 /* FOOTER */
 footer {
-  display: flex;
-  justify-content: flex-end;
   border-top: solid 1px #cbcbcb; }
-  footer nav ul {
-    list-style: none;
-    text-align: right;
-    margin: 0 2rem; }
-    footer nav ul li {
-      margin: 10px 0; }
-    footer nav ul a {
+  footer .contenido-footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    footer .contenido-footer a {
+      text-decoration: none;
       font-size: 14px;
       color: #7b7b7b;
-      text-decoration: none; }
-    footer nav ul a:hover {
-      color: black; }
+      margin: 0 2rem; }
+    footer .contenido-footer a:hover {
+      color: #833ab4; }
+  footer .copyright {
+    background-color: #7b7b7b;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 13px; }
 
 /* MEDIA QUERY | FOOTER | MOVIL */
 @media (max-width: 425px) {
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0; }
-  footer nav ul {
-    text-align: center; } }
+  footer .contenido-footer {
+    flex-direction: column;
+    height: 150px; }
+    footer .contenido-footer a {
+      margin: 5px 0; } }
