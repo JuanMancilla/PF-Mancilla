@@ -1,0 +1,5 @@
+· Cambio Idioma <html lang=es>
+· Implementación de Keywords.
+· Implementación de descripciones.
+· Uso de etiquetas semánticas.
+· Uso de etiquetas h1, h2... etc.
